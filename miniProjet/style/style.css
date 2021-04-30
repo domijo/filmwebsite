@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,600;1,800&display=swap");
+/*-----------------------RESET-----------------------*/
+* {
+  background-color: lightgrey;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/*-----------------------HEADER-----------------------*/
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover {
+  background-color: #ee5f5b;
+  border-radius: 10px;
+  padding: 0px 10px;
+  transition: 00.5s;
+  transform: scale(1.2);
+}
+.active {
+  background-color: #ee5f5b;
+  border-radius: 10px;
+  padding: 0px 10px;
+}
+header a {
+  margin: 15px;
+}
+header form,
+div {
+  color: black;
+  margin: 15px;
+  font-size: 1.5em;
+}
+header form input {
+  color: black;
+  background-color: white;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+}
+.btnsearch {
+  color: black;
+  border: none;
+}
+
+/*------------------------HOMEPAGE--------------------*/
+.img {
+  width: 200px;
+  display: flex;
+}
+.categorie {
+  display: flex;
+}
+.text {
+  width: 800px;
+  margin: 30px auto;
+  font-size: 15px;
+}
+.form {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#site-search {
+  color: black;
+  background-color: white;
+  width: 800px;
+  margin: auto;
+  padding: 10px 100px;
+  margin-top: 30px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}
+#send {
+  color: black;
+  background-color: white;
+  width: 100px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+.categorieBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.categoryButton {
+  border: none;
+  background-color: white;
+  font-size: 0.5em;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px;
+}
+.categoryButton:hover {
+  color: white;
+  transform: scale(1.3);
+  background-color: #ee5f5b;
+}
+
+.homepageFilms {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homepageFilms img {
+  width: 400px;
+  border-radius: 10px;
+}
+.nextP{
+  border: none;
+  color: white;
+  background-color: rgb(81, 76, 160);
+  padding: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+/*------------------------CATALOGUE--------------------*/
+
+.movieDetails {
+  display: flex;
+  width: 1500px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.movieSelector input {
+  background-color: lightgrey;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  color: black;
+  font-size: 0.5em;
+}
+.movieDetails img {
+  width: 150px;
+}
+.movieDetails p {
+  font-size: 0.5em;
+  width: 1200px;
+}
+.movieActionSelector input {
+  border:none;
+  background-color:white;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 0.5em;
+  cursor: pointer;
+}
+.movieActionSelector input:hover{
+  background-color: #ee5f5b;
+  color: #fff;
+  transition: 00.5s;
+  transform: scale(1.2);
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons input {
+  margin: 15px 190px;
+}
+
+/*-----------------------modifyFORMS-----------------------*/
+
+.main-header {
+  border-radius: 20px;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+
+.main-header:hover {
+  -webkit-box-shadow: 0px 11px 54px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 11px 54px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 11px 54px 0px rgba(0, 0, 0, 0.75);
+}
+
+.input {
+  width: 50%;
+  padding: 1rem;
+  margin: 20px 0px;
+  border: none;
+  border-bottom: 1px solid #ee5f5b;
+  font-size: 1.3rem;
+  background: transparent;
+  outline: none;
+}
+
+.button {
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  background: #ee5f5b;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+  outline: none;
+  margin: 20px;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
+/*-----------------------PLAYLISTS-------------------------*/
+.filmList{
+  display: flex;
+}
+.filmList img{
+  width: 60px;
+}
+.playlistButton{
+  display: flex;
+  justify-content: center;
+}
